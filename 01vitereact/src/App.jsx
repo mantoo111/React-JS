@@ -1,10 +1,22 @@
 
-import React,{useState} from "react"
+
+import Check from "./1"
 function App() {
-  const [count, setCount] = useState(0)
+  const username="react,js course"
 
   return (
-   <h1>React with vite</h1>
+    <><Check/>
+    <h1>chai or react (in app.jsx) {username}</h1>
+    <p>test para  (in app.jsx)</p>
+    </>
+  
+  /*<div>
+first method is close element in div
+</div>
+<>
+second is this place elements in empty brackets</>*/
+  
+ 
   )
 }
 

@@ -1,9 +1,12 @@
 
-
+import Check from './1'
 
 function App() {
   return (
-   <h1>lets learn  React.js</h1>
+    <>
+    <Check/>
+   <h1>lets learn  React.js(in app.js)</h1>
+   </>
   );
 }
 
