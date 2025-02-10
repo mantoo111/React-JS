@@ -1,0 +1,35 @@
+Why Use Hooks?
+Before hooks, React used class components for state management and lifecycle methods. But class components can be complex. Hooks allow you to do the same things in functional components, which are simpler and easier to manage.
+1-
+useState – For State Management
+Used when you need to store and update values (like user input, toggle states, counters).
+ The useState hook returns an array with two values:
+
+count (current state value)
+setCount (function to update the state)
+2-
+useEffect – For Side Effects (like API calls, event listeners, etc.)
+Used when you need to run code after a component renders (like fetching data, setting up a timer)
+
+useEffect takes two arguments:
+
+A function that runs after render
+A dependency array (controls when the function runs)
+🛠️ If [] is empty, it runs only once (when the component mounts).
+🛠️ If it has variables, it runs whenever those variables change.
+3-
+useRef – For Referencing DOM Elements or Storing Mutable Values
+Used when you need to access a DOM element or store a value that doesn’t trigger re-renders.
+
+useRef stores a reference to an element (inputRef.current).
+👉 Clicking the button moves the cursor to the input field.
+4-
+useContext – For Global State Management
+Used when you need to share state between multiple components without prop drilling.
+useContext(ThemeContext) allows child components to access theme and setTheme without passing props manually.
+
+
+            PROPS:
+Props (short for properties) are used to pass data from a parent component to a child component in React. They help make components reusable and dynamic by customizing their behavior.
+
+it can pass obj as well as array
