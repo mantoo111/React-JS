@@ -1,0 +1,46 @@
+						React js:
+
+->it is basically library of javascript
+->single page application not take time to reload, your data and URL will be change but no reloading
+->works on only single page
+
+what is component?
+basically it is the parts of your website means in 3,4 pages u have something common so ...
+syeps:
+make folder and then through that open vs and go to terminal
+1-npx create-react-app name
+2-cd name
+3-npm run start
+if u use vite then after 3rd step:
+npm create vite@latest
+cd viteprojectname
+npm install
+run dev
+npx =node pakage executer
+->JSX=javascrpt+Html tags can be used at the same time
+->to print use { variable}
+component starting letter is always capital in src make new folder of name Header.js(this is the component) ,always js or jsx
+then in that empty folder type rfc(react function component)
+u will call that function in App.js in app function write <Header/>
+
+*in componenet file u can write single tag but can not write multiple for multiple tags put these multiple tags under one parent tag
+Vite is a build tool and development server for modern front-end projects.
+
+for adding tailwind use this link and follow these steps..
+https://tailwindcss.com/docs/installation/using-vite
+props:
+kesi bi parent component ka data child component ma nhi ja sakta
+->to send data from parent to child use props(App is parent and header is child),it will send to child by making its object
+->in child function just pass props and u can use it for displaing like this {props.email}
+
+->*it is mandatory to give keyv prop to child ,bec these child are generated through loop,to check uniqueness every  time key is used
+
+
+use this for icons
+https://docs.fontawesome.com/web/use-with/react
+
+EventHandling:
+if u write function in {} bracket for calling purpose then this functionwill automaticaaly call calls when u open the website
+if u use () it will automatically calss displaydata(),but if wriiten like this displaydata it will not automatically fires the msg instead it will first require that user press some button then msg will be displayed
+
+curly bracket will call arrow function and that arrow function will call that specific function {()=>addData(1,2)}  this is called parametrized function

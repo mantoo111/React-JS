@@ -10,7 +10,7 @@ function App() {
     age:21
   }
   let newArr=[1,2,3]
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
