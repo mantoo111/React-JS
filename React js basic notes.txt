@@ -44,3 +44,9 @@ if u write function in {} bracket for calling purpose then this functionwill aut
 if u use () it will automatically calss displaydata(),but if wriiten like this displaydata it will not automatically fires the msg instead it will first require that user press some button then msg will be displayed
 
 curly bracket will call arrow function and that arrow function will call that specific function {()=>addData(1,2)}  this is called parametrized function
+
+
+Hooks:
+when u dynamically chgange amd  want to show something on run time then use sataew is used ,in simple words if to want to show changes that u made then this usestate is used
+
+->use if else above return part if u use i else in return portionthen u get error ,fot this u can use ternary
