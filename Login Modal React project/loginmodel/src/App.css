@@ -1,0 +1,41 @@
+
+.Modeloverlay{
+ 
+}
+.Modeldiv{
+  width: 321px;
+  position: fixed;
+  height: 320px;
+  left: 50%;
+  top: 500%;
+  transform:none;
+  background-color: rgb(255, 255, 254);
+}
+.btn{
+  position: fixed;
+  right: 0px;
+ top: 100px;
+}
+.Modelshow{
+  display: block;
+}
+.Showmodeldiv{
+  top: 50px;
+
+}
+
+.App {
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.LoginContainer {
+  width: 320px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
